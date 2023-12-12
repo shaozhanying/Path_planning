@@ -1,0 +1,12 @@
+<launch>
+
+
+  <node pkg="mine_simulator" type="mine_simulator" name="mine_simulator" output="screen" required="true">
+  </node>
+
+  <node pkg="mine_simulator" type="pathRefine" name="pathRefine" output="screen" required="true">
+  </node>
+
+</launch>
+
+
